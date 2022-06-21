@@ -26,7 +26,7 @@ const PreviewButton: React.FC<Props> = (props) => {
         setUrl(previewURL);
       };
 
-      makeRequest();
+     
     }
   }, [
     generatePreviewURL,
